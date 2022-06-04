@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #e6e6e6;
+  font-size: 16px;
+}
+
+.question {
+  /* ======= Absolute Units ======= */
+  /* font-size: 40px; */
+
+  /* ======= Relative Units ======= */
+  /* font-size: 3rem; Relative to the root element */
+  text-align: center;
+  color: rgb(17, 70, 170);
+}
+
+.answer {
+  /* font-size: 18px; */
+  background-color: lightblue;
+}
+
+.child {
+  background-color: red;
+  color: yellow;
+}
+
+.block {
+  background: yellow;
+  /* width: 500px; */
+  /* height: 20px; */
+  margin: 40px;
+  padding: 20px;
+  border: 2px solid;
+}
+
+.inline {
+  width: 500px;
+  height: 100px;
+  background: blue;
+  color: white;
+  margin-left: 2rem;
+  padding-left: 1rem;
+  margin-top: 10000px;
+  padding-top: 500px;
+  padding-bottom: 200px;
+}

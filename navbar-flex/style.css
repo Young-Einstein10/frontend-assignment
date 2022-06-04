@@ -1,0 +1,50 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 0 2rem;
+  background-color: #000;
+  color: #fff;
+}
+
+nav {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 25px;
+}
+
+.nav-wrapper {
+  display: flex;
+  list-style: none;
+}
+
+.nav-wrapper li {
+  margin: 0 1rem;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.link:hover {
+  color: red;
+}
